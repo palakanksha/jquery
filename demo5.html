@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+
+     
+    <script>
+
+      
+     </script>
+
+</head>
+<body onload="ready()">
+<h1> demo5 </h1>
+<input type="password" id="input_1">
+
+<button id="btn_1">show</button>
+<button id="btn_2">show password</button>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<script>
+
+  var btn1 = document.querySelector('#btn_1')
+ var input1 = document.querySelector('#input_1');
+   btn1.addEventListener('click',function(){
+    //console.log('button is click');
+    if(btn1.innerText== 'show'){
+    input1.type ="text";
+    btn_1.innerText = 'hide';
+    }else{
+        input1.type ="text";
+        btn_1.innerText = 'show';
+    }
+
+   });
+
+
+
+   //Jquery
+
+     $ (document).ready(function(){
+    $('#btn_2').click(function(){
+
+        if($('#input_1').attr('type')=='password'){
+            $('#input_1').attr('type','text');
+            $('#input_1').css('border','2px solid red');
+            $('#btn_2').text('hide paddword');
+        }else{
+            $('#input_1').attr('type','password');
+            $('#input_1').css('border','2px solid green');
+            $('#btn_2').text('show paddword');
+        }
+    });
+
+    });
+
+</script>
+</script>
+</body>
+</html>

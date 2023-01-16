@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+
+<body>
+    <h1>Demo6</h1>
+    <input type="text" id="num_1"></body></br>
+    <input type="text"  id="num_2"></body></br>
+    <input type="text" id="result"></body></br>
+    Result: <input type="text" id="result"></br> 
+    <button id="addbtn">add</button>
+
+ <script>
+    $(document).ready(function(){
+        // var addbtn = $('#addbtn');
+
+        // var num_1= $('num_1');
+        // var num_2= $('num_2');
+        // var num_3= $('result');
+
+        $('#addbtn').click(function(){
+           $('#result').val( Number($('#num_1').val())+Numer($('#num_2').val()) .css('border','5px solid green'));
+          //$('#result').css('border','5px solid green');
+
+        });
+
+    });
+</script>
+</body>
+    
+
+
+
+</html>

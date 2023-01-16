@@ -1,0 +1,24 @@
+Jquery and Ajax
+********************
+
+key Points about Jquery:-
+
+1- it is small/light wieght library of javascript
+
+2- it follows the concept of wldm (write less do more)
+
+
+Jquery can be Added in project to perform Javascript operation at less, line of code.
+
+there are two ways of using Jquery:-
+
+1- local linking
+
+2- using cdn links
+
+3- Jquery is more about, Dom(document oject model) Manipulation.
+
+
+General Syntax of Jquery is:-
+
+1- $(selector). EvenMethod (Anonymous functioon or callbacks).

@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+<head>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    </script>
+    <script>
+
+        //Note :: jquery : target => window
+        //Note :: Jquery : target => document
+        // it is fast as javascript =. window object => DomContentLoaded.
+
+        
+         $ (document).raedy(function(){
+                window.alert("Ready function of jquery");
+             });
+
+
+         window.addEventListener('DomContentLoaded',function(){
+            ready();
+
+         })
+             function ready(){
+                window.alert("Ready function of javascript");
+             }
+
+
+            
+   
+     </script>
+
+</head>
+<body onload="ready()">
+<h1> demo4 | why ready function jquery </h1>
+<div id="div"> this is div tag</div>
+
+
+</body>
+</html>
